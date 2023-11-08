@@ -9,5 +9,9 @@ public class FindingMinAndMax {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = (int) (Math.random() * (upperLimit + 1 - lowerLimit) + lowerLimit);
         }
+        for (int value : nums) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
     }
 }
